@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-returns"
+version = "0.1.0"
+description = ""
+authors = ["Ian Kollipara <ian.kollipara@cune.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.72.0"
+returns = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.2"
+mypy = "^0.931"
+black = "^21.12b0"
+coverage = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
