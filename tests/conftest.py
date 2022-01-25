@@ -7,7 +7,7 @@
 # Imports
 from pytest import fixture
 from fastapi import FastAPI, testclient
-from fastapi_returns.returns_router import ReturnsRouter
+from fastapi_returns_router.returns_router import ReturnsRouter
 from returns import future
 
 @fixture

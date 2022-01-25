@@ -1,5 +1,5 @@
 import pytest
-from fastapi_returns.returns_router import ReturnsRouter 
+from fastapi_returns_router.returns_router import ReturnsRouter 
 from fastapi.testclient import TestClient
 from fastapi import FastAPI
 

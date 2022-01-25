@@ -8,7 +8,7 @@
 from typing import Any
 import pytest
 from returns import future, io, maybe
-from fastapi_returns import _wrappers
+from fastapi_returns_router import _wrappers
 from fastapi import HTTPException
 
 

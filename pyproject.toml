@@ -1,7 +1,9 @@
 [tool.poetry]
-name = "fastapi-returns"
+name = "fastapi-returns-router"
 version = "0.1.0"
-description = ""
+description = "This FastAPI Router Implementation bridges the gap between FastAPI and Returns"
+license = "MIT"
+repository = "https://github.com/ikollipara/fastapi-returns"
 authors = ["Ian Kollipara <ian.kollipara@cune.org>"]
 
 [tool.poetry.dependencies]
